@@ -1,0 +1,82 @@
+.circle{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(224, 185, 125);
+    border-radius: 500px;
+  margin-top: 9px;
+  border: 3px solid rgb(212, 138, 26);
+
+}
+p{
+    text-align: center;
+    margin: 210px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(105, 74, 36);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.position{
+    opacity: 0.2;
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+}
+h1{
+    text-align: center;
+   font-size: 60px;
+   font-weight: bold;
+   letter-spacing: 9px;
+   color: rgb(212, 138, 26);
+   margin-top: 100px;
+   text-shadow: 3px 2px 3px  rgb(94, 84, 84);
+}
+.outer{
+    display: flex;
+justify-content: center; 
+  
+}
+body{
+    margin: 50px 10px 10px 10px;
+    background-image: url("images/image.png");
+   background-repeat: no-repeat;
+   background-size:100% 120%;
+   
+}
+
+@media(min-width:319px) and (max-width:600px){
+    body{
+     
+            margin: 50px 10px 360px 10px;
+            background-size: 100% 100%;
+       
+   }
+   .first{
+    padding-top: 146px;
+   }
+}
+
+@media(min-width:600px) and (max-width:1200px){
+    body{
+     
+            margin: 50px 10px 637px 10px;
+            background-size: 100% 121%;
+       
+   }
+   .first{
+    padding-top: 350px;
+   }
+}
+
+
+
+@media(min-width:1200px) and (max-width:1500px){
+    body{
+     
+            margin: 50px 10px 637px 10px;
+            background-size: 100% 121%;
+       
+   }
+   .first{
+    padding-top: 450px;
+   }
+}
